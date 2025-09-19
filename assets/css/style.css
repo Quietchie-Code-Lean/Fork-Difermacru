@@ -21,13 +21,24 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.banner {
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(33, 33, 33, 0.1);
+}
 .hoja{
     background: white;
     width: 21cm;
     padding: 2cm;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     font-family: Arial, sans-serif;
+}
+
+.hoja img {
+    width: 150px; 
+    height: 150px;
+    border: 5px solid var(--secundario);
+    border-radius: 50%;
 }
 
  .pie-pagina, 
@@ -58,6 +69,12 @@ body{
         flex-direction: row; 
         justify-content: space-between;
     }
+    .hoja img {
+    width: 250px; 
+    height: 250px;
+    border: 5px solid var(--secundario);
+    border-radius: 50%;
+}
 }
 
 .navegacion-principal a{
