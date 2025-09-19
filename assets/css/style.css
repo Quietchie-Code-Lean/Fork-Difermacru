@@ -24,6 +24,7 @@ body{
 .banner {
     text-align: center;
     padding: 5%;
+    margin-top: 250px;
     background-color: rgb(33, 33, 33, 0.1);
 }
 .hoja{
@@ -74,7 +75,10 @@ body{
     height: 250px;
     border: 5px solid var(--secundario);
     border-radius: 50%;
-}
+    }
+    .banner {
+        margin-top: 0;
+    }
 }
 
 .navegacion-principal a{
